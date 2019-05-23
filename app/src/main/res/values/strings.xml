@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">StarWars Android Challenge</string>
+    <string name="home_page_time">StarWars Characters</string>
+    <string name="search_eg_name_birth_year">Search (eg. Name or Birth year)</string>
+    <string name="no_information_available">No information available.</string>
+    <string name="character_details">Character Details</string>
+    <string name="loading_please_wait">Loading..... Please wait</string>
+    <string name="loading_successful">Loading successful</string>
+    <string name="name">Name</string>
+    <string name="birth_year">Birth Year</string>
+    <string name="height_cm_feet_inches">Height (cm/feet/inches)</string>
+    <string name="name_species">Name (species)</string>
+    <string name="language_species">Language (species)</string>
+    <string name="name_planet">Name (planet)</string>
+    <string name="population_planet">Population (planet)</string>
+    <string name="films">Films</string>
+    <string name="title">Title</string>
+    <string name="opening_crawl">Opening crawl</string>
+    <string name="release_date">Release date</string>
+    <string name="line_separator">:</string>
+    <string name="film_separator">------------------</string>
+    <string name="ok">OK</string>
+    <string name="data_fetching_error">Something went wrong! Data Loading failed!</string>
+    <string name="network_connection_error">Something went wrong! Internet connection not available!</string>
+    <string name="title_activity_base">BaseActivity</string>
+</resources>

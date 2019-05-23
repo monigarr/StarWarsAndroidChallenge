@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".features.characterdetails.view.CharacterDetailsActivity"
+            android:background="@color/white"
+            android:fillViewport="true">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/search_box_background_color"
+                android:layout_marginBottom="@dimen/margin_smaller"
+                android:text="@string/name"/>
+
+        <TextView
+                android:id="@+id/tv_details_name"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_size_medium"
+                android:paddingTop="@dimen/margin_smaller"
+                android:paddingBottom="@dimen/margin_smaller"
+                android:textColor="@color/app_black"
+                android:text="@string/loading_please_wait"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:background="@drawable/bg_character_details_item"
+                android:paddingLeft="@dimen/margin_smaller"
+                android:paddingRight="@dimen/margin_smaller" />
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/search_box_background_color"
+                android:layout_marginBottom="@dimen/margin_smaller"
+                android:text="@string/birth_year"/>
+
+        <TextView
+                android:id="@+id/tv_details_birth_year"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_size_medium"
+                android:paddingTop="@dimen/margin_smaller"
+                android:paddingBottom="@dimen/margin_smaller"
+                android:textColor="@color/app_black"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:background="@drawable/bg_character_details_item"
+                android:text="@string/loading_please_wait"
+                android:paddingLeft="@dimen/margin_smaller"
+                android:paddingRight="@dimen/margin_smaller"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/search_box_background_color"
+                android:layout_marginBottom="@dimen/margin_smaller"
+                android:text="@string/height_cm_feet_inches"/>
+
+        <TextView
+                android:id="@+id/tv_details_height"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_size_medium"
+                android:paddingTop="@dimen/margin_smaller"
+                android:paddingBottom="@dimen/margin_smaller"
+                android:textColor="@color/app_black"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:background="@drawable/bg_character_details_item"
+                android:text="@string/loading_please_wait"
+                android:paddingLeft="@dimen/margin_smaller"
+                android:paddingRight="@dimen/margin_smaller"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/search_box_background_color"
+                android:layout_marginBottom="@dimen/margin_smaller"
+                android:text="@string/name_species"/>
+
+        <TextView
+                android:id="@+id/tv_details_name_species"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_size_medium"
+                android:paddingTop="@dimen/margin_smaller"
+                android:paddingBottom="@dimen/margin_smaller"
+                android:textColor="@color/app_black"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:background="@drawable/bg_character_details_item"
+                android:text="@string/loading_please_wait"
+                android:paddingLeft="@dimen/margin_smaller"
+                android:paddingRight="@dimen/margin_smaller"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/search_box_background_color"
+                android:layout_marginBottom="@dimen/margin_smaller"
+                android:text="@string/language_species"/>
+
+        <TextView
+                android:id="@+id/tv_details_language_species"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_size_medium"
+                android:paddingTop="@dimen/margin_smaller"
+                android:paddingBottom="@dimen/margin_smaller"
+                android:textColor="@color/app_black"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:background="@drawable/bg_character_details_item"
+                android:text="@string/loading_please_wait"
+                android:paddingLeft="@dimen/margin_smaller"
+                android:paddingRight="@dimen/margin_smaller"/>
+
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/search_box_background_color"
+                android:layout_marginBottom="@dimen/margin_smaller"
+                android:text="@string/name_planet"/>
+
+        <TextView
+                android:id="@+id/tv_details_name_planet"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_size_medium"
+                android:paddingTop="@dimen/margin_smaller"
+                android:paddingBottom="@dimen/margin_smaller"
+                android:textColor="@color/app_black"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:background="@drawable/bg_character_details_item"
+                android:text="@string/loading_please_wait"
+                android:paddingLeft="@dimen/margin_smaller"
+                android:paddingRight="@dimen/margin_smaller"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/search_box_background_color"
+                android:layout_marginBottom="@dimen/margin_smaller"
+                android:text="@string/population_planet"/>
+
+        <TextView
+                android:id="@+id/tv_details_population_planet"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_size_medium"
+                android:paddingTop="@dimen/margin_smaller"
+                android:paddingBottom="@dimen/margin_smaller"
+                android:textColor="@color/app_black"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:background="@drawable/bg_character_details_item"
+                android:text="@string/loading_please_wait"
+                android:paddingLeft="@dimen/margin_smaller"
+                android:paddingRight="@dimen/margin_smaller"/>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/search_box_background_color"
+                android:layout_marginBottom="@dimen/margin_smaller"
+                android:text="@string/films"/>
+
+        <TextView
+                android:id="@+id/tv_details_films"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_size_medium"
+                android:paddingTop="@dimen/margin_smaller"
+                android:paddingBottom="@dimen/margin_smaller"
+                android:textColor="@color/app_black"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:background="@drawable/bg_character_details_item"
+                android:text="@string/loading_please_wait"
+                android:paddingLeft="@dimen/margin_smaller"
+                android:paddingRight="@dimen/margin_smaller"/>
+
+    </LinearLayout>
+
+</ScrollView>

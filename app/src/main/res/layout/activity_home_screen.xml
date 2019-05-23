@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".features.homescreen.view.HomeScreenActivity"
+        android:orientation="vertical">
+    <LinearLayout
+            android:layout_height="55dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@color/search_box_background_color">
+
+        <LinearLayout
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:background="@drawable/bg_search_box">
+            <ImageView
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_search"/>
+            <EditText
+                    android:id="@+id/et_search_box"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textColorHint="@color/text_hint_color"
+                    android:hint="@string/search_eg_name_birth_year"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:maxLines="1"
+                    android:background="@color/transparent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/character_list_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"/>
+</LinearLayout>
